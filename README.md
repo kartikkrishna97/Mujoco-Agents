@@ -29,7 +29,8 @@ pip install -e .
 	python scripts/train_agent.py --env_name <ENV> --exp_name <ALGO>  [optional tags]
 ```
 ## Arguments
-<env_name> Hopper-V4, Ant-V4
-<exp_name> either imitation, RL or stable baselines
-<optional_tags> train with gpu and logs
+- **env_name**: Hopper-V4, Ant-V4
+- **exp_name**: either imitation, RL, or stable baselines
+- **optional_tags**: train with GPU and logs
+
 
